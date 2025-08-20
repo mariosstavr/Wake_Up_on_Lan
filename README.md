@@ -7,9 +7,9 @@ It provides a clean web interface with 3 buttons, each mapped to a specific PC�
 
 ✨ Features
 
-Web-based interface – open in any browser
+Web-based interface – open in any browser just run localhost:3000 and thats it.
 
-One-click wake up – 3 configurable buttons for different PCs
+One-click wake up – configurable buttons for different PCs
 
 VPN-friendly – works for users connected via VPN (the app runs inside the LAN, so no broadcast issues)
 
