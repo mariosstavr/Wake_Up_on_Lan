@@ -8,11 +8,11 @@ app.use(express.static(__dirname));
 
 //MAC AND NAMES OF PCS IN THE HOST TO CHECK IF THEY ARE OPENNED WITH PING METHOD
 const DEVICES = {
-  pc1: { mac: 'AA:BB:CC:DD:EE:01', name: 'Test PC 1', host: 'test-host1' },
-  pc2: { mac: 'AA:BB:CC:DD:EE:02', name: 'Test PC 2', host: 'test-host2' },
-  pc3: { mac: 'AA:BB:CC:DD:EE:03', name: 'Test PC 3', host: 'test-host3' },
-  pc4: { mac: 'AA:BB:CC:DD:EE:04', name: 'Test PC 4', host: 'test-host4' },
-  pc5: { mac: 'AA:BB:CC:DD:EE:05', name: 'Test PC 5', host: 'test-host5' },
+  pc1: { mac: 'AA:BB:CC:DD:EE:01', name: 'PC 1', host: 'host1' },
+  pc2: { mac: 'AA:BB:CC:DD:EE:02', name: 'PC 2', host: 'host2' },
+  pc3: { mac: 'AA:BB:CC:DD:EE:03', name: 'PC 3', host: 'host3' },
+  pc4: { mac: 'AA:BB:CC:DD:EE:04', name: 'PC 4', host: 'host4' },
+  pc5: { mac: 'AA:BB:CC:DD:EE:05', name: 'PC 5', host: 'host5' },
 };
 
 app.get('/', (req, res) => {
