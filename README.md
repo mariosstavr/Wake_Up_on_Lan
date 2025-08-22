@@ -6,7 +6,7 @@ It provides a clean web interface with multiple buttons for each PC. When you cl
 
 Features
 
-Web-based interface – accessible in any browser; just run localhost:7010.
+Web-based interface – accessible in any browser; just run localhost:4000.
 
 Multiple device support – easily add more devices with dummy/test names and MAC addresses for demonstration or real MACs in your LAN.
 
