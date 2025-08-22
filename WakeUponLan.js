@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.send(`
     <html>
       <head>
-        <title>PowerUp Stirixis</title>
+        <title>Wake Up On Lan</title>
         <style>
           body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,7 +56,7 @@ app.get('/', (req, res) => {
         </style>
       </head>
       <body>
-        <img src="STIRIXIS.png" alt="Stirixis Logo" style="width:250px; margin-bottom:20px;">
+        <h1>Wake Up On Lan </h1>
         <div class="container">
           ${Object.keys(DEVICES).map(id => `
             <div class="card">
