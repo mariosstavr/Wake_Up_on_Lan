@@ -6,7 +6,7 @@ const PORT = 4000;
 
 app.use(express.static(__dirname));
 
-//MAC AND NAMES OF PCS IN THE HOST TO CHECK IF THEY ARE OPENNED WITH PING METHOD
+
 const DEVICES = {
   pc1: { mac: 'AA:BB:CC:DD:EE:01', name: 'PC 1', host: 'host1' },
   pc2: { mac: 'AA:BB:CC:DD:EE:02', name: 'PC 2', host: 'host2' },
