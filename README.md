@@ -1,6 +1,6 @@
 Wake_Up_on_LAN_App
 
-A simple Node.js + Express web application that allows you to remotely power on computers in your LAN using Wake-on-LAN (WOL).
+Node.js + Express web application that allows you to remotely power on computers in your LAN using Wake-on-LAN (WOL).
 
 It provides a clean web interface with multiple buttons for each PC. When you click a button, the server sends a WOL magic packet to wake up the target machine.
 
